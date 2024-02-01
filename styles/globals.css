@@ -1,0 +1,81 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; Hide overflow to remove scrollbars */
+  overflow-y: scroll; /* Add scroll only for vertical axis */
+  overflow-x: hidden;
+  scrollbar-width: thin; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.light{
+  background-color: #fff;
+  /* background-color: rgba( 225, 255, 255, 0.1);
+  backdrop-filter: blur(10px); */
+  /* border: 1px solid red; */
+
+}
+
+.dark{
+  background-color: black;
+  /* color: #fff; */
+  /* border: 1px solid yellow; */
+}
+
+/* 
+[data-theme='dark'] {
+  background-color: #111;
+  color: #fff;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0 1em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+/* Add more styling as needed */
+
+/* body::-webkit-scrollbar {
+  width: 0.5em;
+} */
+
+/* body::-webkit-scrollbar-thumb {
+  background-color: #888; Color of the thumb
+} */
+
+/* body::-webkit-scrollbar-thumb {
+  background-color: transparent;  Make the thumb transparent
+} */
+
+/* body::-webkit-scrollbar-track {
+  background-color: transparent; Make the track transparent
+} */
+
+body::-webkit-scrollbar {
+  width: 6px; /*Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; /*Set the color of the scrollbar thumb*/
+}

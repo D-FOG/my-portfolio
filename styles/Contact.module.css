@@ -1,0 +1,126 @@
+/* styles/Contact.module.css */
+
+.lightContactContainer {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.darkContactContainer {
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .pageDescription {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .area1{
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+  .area1 .input1{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    width: 350px;
+  }
+  .area1 .input2{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    width: 350px;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sendGroup{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sendButton {
+    background-color: #0070f3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .sendButton:hover {
+    background-color: #004080;
+  }
+
+  @media (max-width: 768px) {
+    .area1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .area2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .area2 .input {
+      width: 350px;
+    }
+    .area3{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .area3 .input {
+      width: 350px;
+    }
+  }
+  

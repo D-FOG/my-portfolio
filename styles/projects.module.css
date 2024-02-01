@@ -1,0 +1,19 @@
+.container {
+    padding: 2em;
+  }
+  
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    width: 30%;
+  }
+  
+  /* Add more styling as needed */
+  

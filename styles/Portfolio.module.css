@@ -1,0 +1,118 @@
+/* styles/Portfolio.module.css */
+
+.lightPageContainer {
+    padding: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+.darkPageContainer{
+    padding: 2rem;
+    background-color: black;
+    color: #fff;
+}
+  .h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .pageDescription {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .section {
+    margin-top: 2rem;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    margin-bottom: 5%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Center the cards horizontally */
+  }
+  
+  .card {
+    padding: 1rem;
+    background-color: rgba( 225, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* border: 1px solid red; */
+  }
+  
+  .cardContent {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+
+.cardImage {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .textContainer {
+    padding: 1rem;
+  }
+  
+  .openButton {
+    background-color: #0070f3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .openButton:hover {
+    background-color: #004080;
+  }
+  
+  /* ... (previous styles) ... */
+  
+  
+  /* Animation for fading and sliding cards */
+  .card:nth-child(odd) {
+    transform: translateX(-10px);
+  }
+  
+  .card:nth-child(even) {
+    transform: translateX(10px);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* More link */
+  .moreLink, .lessLink {
+    font-size: 1.2rem;
+    color: #0070f3; /* Set your link color */
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .moreLink:hover, .lessLink:hover {
+    color: #fff; /* Set your link hover color */
+    background-color: #0070f3;
+  }
+  

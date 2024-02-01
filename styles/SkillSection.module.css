@@ -1,0 +1,72 @@
+/* styles/SkillsSection.module.css */
+
+.lightSkillsSection {
+  padding: 2rem;
+  background-color: hwb(0 96% 4%); 
+  text-align: center;
+}
+.darkSkillsSection {
+  padding: 2rem;
+  background-color: hwb(0 0% 100%);
+  text-align: center;
+}
+
+.h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color:#333;
+}
+
+.centerSkill{
+  display: flex;
+  justify-content: center;
+}
+
+.skillImage,
+.certificationImage {
+  margin: 0 10px;
+}
+
+.img1{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin-left: 40%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  margin-left: 10%;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .skillImage,
+  .certificationImage {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsSection {
+    padding: 1rem;
+  }
+
+  .h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .skillImage,
+  .certificationImage {
+    margin: 0 5px;
+  }
+}
